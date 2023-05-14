@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.logo {
+    width: 200px;
+    margin-left: -10px;
+}
+
+.boxsearch {
+    margin-top: 80px;
+}
+
+.navbar .container-fluid {
+    width: 100%;
+    display: flex;
+    background-color: rgb(4, 184, 184);
+    justify-content: center;
+}
+
+.options {
+    font-size: 20px;
+    margin-top: 85px;
+    margin-left: 150px;
+}
+
+.menu a {
+    margin:auto;
+    color: white;
+}
+
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.options2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(4, 184, 184);
+}
+
+.active {
+    background-color: orange;
+}
+
+.center {
+    text-align: center;
+    color: rgb(0, 198, 198);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.pa1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.limo {
+    width: 550px;
+}
+
+.limodetail {
+    height: 250px;
+    width: 600px;
+    font-size: 18px;
+}
+
+.resort {
+    width: 550px;
+}
+
+.resortdetail {
+    font-size: 18px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: rgb(0, 198, 198);
+    height: 100px;
+    padding-top: 10px;
+}
+
+.line {
+    text-align: center;
+    color: white;
+}
+
+body {
+    width: 100%;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.collapse navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media screen and (max-width:768px) {
+    .logo {
+        display: block;
+    }
+
+    .ronaldo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
